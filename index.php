@@ -1,9 +1,13 @@
 <?php
+//Je start une session pour pouvoir stocker mes données 
 session_start();
+//Je définis la racine de mon site
 define("URL", str_replace("index.php", "", (isset($_SERVER['HTTPS']) ? "https" : "http") . "://$_SERVER[HTTP_HOST]$_SERVER[PHP_SELF]"));
+//J'appelle mon controller et j'en fait une variable pour pouvoir me servir des fonctions
 require_once "controllers/DevisController.controller.php";
 $devisController = new DevisController();
 
+//Je fais un try catch pour les routes de mon application
 try {
     if(isset($_GET['page'])){
         $url = explode("/", filter_var($_GET['page']), FILTER_SANITIZE_URL);

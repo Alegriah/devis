@@ -1,4 +1,4 @@
-
+<!-- Ma page d'erreur -->
 <p><?=$error?></p>
 <?php
 $title = "Page d'erreur";

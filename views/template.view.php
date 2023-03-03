@@ -1,3 +1,4 @@
+<!-- Mon template pour éviter de le répéter dans chaque fichier -->
 <!DOCTYPE html>
 <html lang="fr">
 

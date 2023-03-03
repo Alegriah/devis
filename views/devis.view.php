@@ -1,4 +1,4 @@
-
+<!-- Mon formulaire sous POST afin de récupérer mes input et comme action validate pour rediriger si c'est bon ou non vers le devis -->
 
 <form method="POST" action="<?= URL ?>comiti/validate" enctype="multipart/form-data">
     <div class="form-group mt-1">

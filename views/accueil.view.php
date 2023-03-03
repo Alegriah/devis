@@ -1,4 +1,4 @@
-
+<!-- L'accueil du site  -->
 <div class="container">
     <div class="accordion">
         <div class="accordion-item">
